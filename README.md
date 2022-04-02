@@ -20,3 +20,6 @@ THEN I can save my initials and score
 
 
 Repo: https://github.com/rehpotsirhc21/js-quiz
+
+resources: https://www.youtube.com/watch?v=x7WJEmxNlEs
+![full site screen print](./assets/images/screencapture-localhost-52330-index-html-2022-04-02-07_14_57.png)
