@@ -29,5 +29,5 @@ resources: The below links were used as reference to help build out different pi
                 questions/answers are modified versions of the Q and A located here.
             https://www.youtube.com/watch?v=riDzcEQbX6k&t=1119s
                 This is a similar project on youtube. I built this out seperatly and applied the concepts from it in my final code.
-
+background from: https://www.freellustrations.com/illustration/NTcp
 ![full site screen print](./assets/images/screencapture-localhost-52330-index-html-2022-04-02-07_14_57.png)
