@@ -38,7 +38,7 @@ function timer() {
 //start game function
 function startGame() {
   interval = setInterval(timer, 1000);
-  console.log(setInterval);
+
   displayTimer.classList.remove("hide");
   $(startBtnEl).addClass("hide");
   $(questionEL).removeClass("hide");
@@ -87,7 +87,6 @@ function verifyCorrect(event) {
     this.classList.remove("btn-outline-primary");
     this.classList.add("btn-success");
     highScore += 10;
-    console.log(highScore);
   } else {
     this.classList.remove("btn-outline-primary");
     this.classList.add("btn-danger");
@@ -122,7 +121,7 @@ function resetAnswers() {
 
 function finishGame() {
   let getScore = localStorage.getItem("high score");
-  console.log(getScore);
+
   highScore = highScore || 0;
   if (highScore > getScore) {
     alert(
