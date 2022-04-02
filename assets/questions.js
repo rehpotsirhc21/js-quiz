@@ -14,7 +14,8 @@ const questionList = [
         "2. What is the correct JavaScript syntax to update the text to 'Hello World' <p id='demo'></p>?",
       answerOptions: [
         {
-          text: "#demo.innerHTML = 'Hello World",
+          text: "document.#demo.innerHTML = 'Hello World'",
+          
           correct: false,
         },
   
@@ -37,7 +38,7 @@ const questionList = [
     {
       questionText: "3. Where is the correct place in the HTML to put the JS?",
       answerOptions: [
-        { text: "both the <head> and the <body> section", correct: false },
+       
   
         {
           text: "the <head>",
@@ -49,7 +50,8 @@ const questionList = [
           correct: true,
         },
   
-        { text: "either the <head> or the <body> is fine", correct: false },
+        { text: "either", correct: false },
+        { text: "both", correct: false },
       ],
     },
   
@@ -96,7 +98,7 @@ const questionList = [
       answerOptions: [
         { text: "call myfunction", correct: false },
         { text: "myFunction()", correct: true },
-        { text: "call function myFunction()", correct: false },
+        { text: "func myFunction", correct: false },
       ],
     },
   
@@ -113,9 +115,9 @@ const questionList = [
     {
       questionText: "10. How do you add a comment to JS?",
       answerOptions: [
-        { text: "<!--This is a comment-->", correct: false },
-        { text: "'This is a comment'", correct: false },
-        { text: "//This is a comment", correct: true },
+        { text: "<!text>", correct: false },
+        { text: "'text'", correct: false },
+        { text: "//text", correct: true },
       ],
     },
   ];
